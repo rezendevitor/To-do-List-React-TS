@@ -47,7 +47,7 @@ function App() {
   return (
     <div>
       <Modal children={<TaskForm
-        btnText="Editar Tarefa"
+        btnText="Salvar"
         taskList={taskList}
         task={taskToUpdate}
         handleUpdate={updateTask}
